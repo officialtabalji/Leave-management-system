@@ -1,0 +1,31 @@
+{
+  "name": "nit-goa-lms-backend",
+  "version": "1.0.0",
+  "description": "Backend for NIT Goa Leave Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "google-auth-library": "^9.4.1",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "keywords": ["lms", "backend", "express", "mongodb", "oauth"],
+  "author": "NIT Goa LMS Team",
+  "license": "MIT"
+}
